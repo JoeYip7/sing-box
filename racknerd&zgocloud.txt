@@ -1,0 +1,34 @@
+{
+  "servers": [
+    {
+      "name": "Racknerd",
+      "server": "107.173.111.167",
+      "port": 8443,
+      "protocol": "udp",
+      "password": "35697934fbff8317",
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "alpn": ["h3"],
+      "tls": {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "name": "ZgoCloud",
+      "server": "38.49.38.198",
+      "port": 443,
+      "protocol": "udp",
+      "password": "Ywj381321",
+      "up_mbps": 100,
+      "down_mbps": 100,
+      "alpn": ["h3"],
+      "tls": {
+        "enabled": true,
+        "server_name": "zgocloud.joeyip.dynv6.net",
+        "insecure": false
+      }
+    }
+  ]
+}
